@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+}
+body {
+  background: no-repeat center center fixed;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+.enter {
+  cursor: pointer;
+  margin: 10px;
+  width: 60px;
+  height: 20px;
+  border-radius: 300px;
+  box-shadow: 2px 2px 10px rebeccapurple;
+  color: rebeccapurple;
+  font-weight: bold;
+}
+.delete-button:active,
+.enter:active {
+  transform: translateY(10%);
+}
+.header {
+  color: rgb(233, 225, 241);
+  margin: 10px;
+}
+.done {
+  text-decoration: line-through;
+}
+.delete-button {
+  cursor: pointer;
+  margin: 10px;
+  background-color: rgb(197, 129, 129);
+  color: white;
+}
+hr {
+  color: black;
+  width: 200px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.input {
+  margin: 10px;
+}
+li {
+  color: white;
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  padding-top: 10%;
+  color: aliceblue;
+  font-size: 20px;
+}
